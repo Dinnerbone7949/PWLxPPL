@@ -1,0 +1,79 @@
+#watchme{
+    width: 54px;
+    height: 52px;
+}
+
+#watchme-home{
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 5px 20px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#left-navbar-option {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    width: 450px;
+    justify-content: space-between;
+}
+
+#right-navbar-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 370px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+#user-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+}
+
+#right-navbar-option input {
+    padding: 5px;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+#search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 230px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 2px 10px;
+    justify-content: space-between;
+}
+
+#search-icon {
+    width: 20px;
+    height: 20px;
+}
