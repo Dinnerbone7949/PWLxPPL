@@ -6,8 +6,5 @@
 </head>
 <body>
     <?php include_once "components/navbar.php"; ?>
-    <main>
-        <?php include_once "components/movierow.php"; ?>
-    </main>
 </body>
 </html>

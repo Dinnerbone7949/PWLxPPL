@@ -1,0 +1,16 @@
+#movierow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    overflow:auto;
+    width: auto;
+    height: fit-content;
+}
+
+.cover {
+    background-color: red;
+    width: 215px;
+    height: 275px;
+    border-radius: 10px;
+}
