@@ -4,9 +4,9 @@
         <a href="/"><p id="watchme-home">WatchMe</p></a>
     </div>
     <div id="left-navbar-option">
-        <a href="">home</a>
-        <a href="">categories</a>
-        <a href="">mylist</a>
+        <a href="">Home</a>
+        <a href="">Categories</a>
+        <a href="">My List</a>
     </div>
     <div id="right-navbar-option">
         <div id="search">
@@ -14,8 +14,8 @@
             <img src="../images/icon/search.png" id="search-icon">
         </div>
         <div id="user-option">
-            <img id="notif" class="icon" src="../images/icon/notif.png"> <!-- notification -->
-            <img id="profile" class="icon" src="../images/icon/profile.png"> <!-- profile -->
+            <img id="notif" class="icon" src="../images/icon/notif.png">
+            <img id="profile" class="icon" src="../images/icon/profile.png">
         </div>
     </div>
 </navbar>
