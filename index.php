@@ -8,7 +8,7 @@
 <body>
     <?php include_once "components/navbar.php"; ?>
     <main>
-        <?php include_once "components/movierowslider.php"; ?>
+        <?php include_once "components/movierow.php"; ?>
     </main>
     <script src="javascripts/slideshow-btn.js"></script>
     <script src="index.js"></script>
