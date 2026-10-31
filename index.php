@@ -12,5 +12,6 @@
     </main>
     <script src="javascripts/slideshow-btn.js"></script>
     <script src="index.js"></script>
+    <?php include_once "components/footer.php"?>
 </body>
 </html>

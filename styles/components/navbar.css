@@ -6,7 +6,7 @@
 #watchme-home{
     font-size: 32px;
     font-weight: bold;
-    color: black;
+    color: white;
     text-align: center;
     font-family: 'Poppins';
 }
@@ -30,7 +30,6 @@ navbar {
     font-size: 18px;
     width: 450px;
     justify-content: space-between;
-    font-weight: 600;
 }
 
 #right-navbar-option {
