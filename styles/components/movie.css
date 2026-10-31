@@ -1,0 +1,11 @@
+.movie {
+    flex-shrink: 0; 
+    width: 215px;
+}
+
+.cover {
+    background-color: red;
+    width: 215px;
+    height: 275px;
+    border-radius: 10px;
+}
