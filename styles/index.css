@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('base.css');
+@import url('components/navbar.css');
+@import url('components/movierow.css');
+@import url('components/movierowslider.css');
+@import url('components/movie.css');
+@import url('components/footer.css');
