@@ -7,11 +7,11 @@
 </head>
 <body>
     <?php include_once "components/navbar.php"; ?>
+    <?php include_once "components/banner.php"?>
     <main>
         <?php include_once "components/movierow.php"; ?>
     </main>
     <script src="javascripts/slideshow-btn.js"></script>
     <script src="index.js"></script>
-    <?php include_once "components/footer.php"?>
 </body>
 </html>

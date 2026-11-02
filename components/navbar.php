@@ -6,7 +6,7 @@
     <div id="left-navbar-option">
         <a href="">Home</a>
         <a href="">Categories</a>
-        <a href="">Myplaylist</a>
+        <a href="">My List</a>
     </div>
     <div id="right-navbar-option">
         <div id="search">
