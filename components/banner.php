@@ -1,6 +1,6 @@
 <div class="banner">
     <div class="banner-image">
-        <img src="images/banner/banner.png" id="img-banner">
+        <img src="../images/banner/banner.png" id="img-banner">
     </div>
     <div class="banner-content">
         <span id="trending">Trending Now</span>

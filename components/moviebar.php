@@ -1,6 +1,6 @@
 <moviebar>
     <h1>Popular Movies</h1>
     <?php
-    include "components/movierow.php";
+        include __DIR__ . "/movierow.php";
     ?>
 </moviebar>
