@@ -7,8 +7,10 @@
 </head>
 <body>
     <?php include_once "components/navbar.php"; ?>
+    <?php include_once "components/banner.php"; ?>
     <main>
-        <?php include_once "components/movierow.php"; ?>
+        <?php include "components/moviebar.php"; ?>
+        <?php include "components/moviebar.php"; ?>
     </main>
     <?php include_once "components/footer.php" ?>
 </body>
