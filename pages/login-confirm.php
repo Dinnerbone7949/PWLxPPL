@@ -13,6 +13,7 @@
             margin: 0;
             background: black;
             font-family: 'Poppins';
+            overflow: hidden
         }
 
         #login-page {
@@ -104,6 +105,7 @@
             align-items: center;
             border: none;
             outline: none;
+            margin-top: 40px;
         }
 
         #login-button:hover {
@@ -177,15 +179,24 @@
             margin-left: 10px;
         }
 
+         #platform-icon {
+            display: flex;
+            flex-direction: row;
+            margin-top: 40px;
+        }
+
+        #platform-icon img {
+            width: 50px;
+            height: 50px;
+        }
+
 
     </style>
 
 </head>
 <body>
     <div id="login-page">
-        <div id="login-image">
-            halo
-        </div>
+        <img id="login-image" src="../images/banner img/banner-movie.png" alt="">
         <div id="login-content">
             <div>
                 <h1>CREATE ACCOUNT</h1>
@@ -218,10 +229,10 @@
                     </div>
                     <p style="text-align: center;">Don’t have any account? <a href="" style="color: #0329E1; text-decoration: none;">Sign up</a> here or continue with</p>
                     <div id="platform-icon">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
+                        <img src="../images/icon/facebook (1).png" alt="">
+                        <img src="../images/icon/twitter (2).png" alt="" style="margin-left: 40px;">
+                        <img src="../images/icon/instagram (3).png" alt="" style="margin-left: 40px;">
+                        <img src="../images/icon/tik-tok (2).png" alt="" style="margin-left: 40px;">
                     </div>
                     <button id="login-button">Login</button>
                 </div>
