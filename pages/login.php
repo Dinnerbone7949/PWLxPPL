@@ -24,7 +24,7 @@
         #login-image {
             background: red;
             width: 50%;
-            height: 100%;
+            min-height: 100vh;
         }
 
         #login-content {
@@ -74,6 +74,7 @@
             border: 1px solid #BABABA;
             padding-left: 25px;
             font-size: 20px;
+            padding-right: 25px;
         }
 
         #login-button {
@@ -108,11 +109,11 @@
                 <h1>SIGN IN</h1>
                 <div id="input-email">
                     <label style="font-size: 20px;">Email</label>
-                    <input type="text">
+                    <input type="email" placeholder="Email">
                 </div>
                 <div id="input-password">
                     <label style="font-size: 20px;">Password</label>
-                    <input type="text">
+                    <input type="password" id="password" name="password" placeholder="Password">
                 </div>
                 <div id="login-bottom">
                     <p style="text-align: center;">Don’t have any account? <a href="" style="color: #0329E1; text-decoration: none;">Sign up</a> here or continue with</p>
