@@ -1,4 +1,4 @@
-<div class="movie">
+<div class="movie pointer-button">
     <img class="cover" src="">
     <div class="movie-bottom-text">
         <div class="movie-card-title">

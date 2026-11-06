@@ -1,0 +1,34 @@
+#controller {
+    position: relative;
+    padding: 0;
+    width: 700px;
+    height: 400px;
+}
+
+#movie-video {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+#movie-controller {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+#bottom-movie-controller{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+}
+
+#top-movie-controller{
+    width: 100%;
+    height: 360px;
+    background-color: green;
+}

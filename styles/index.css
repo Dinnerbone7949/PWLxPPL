@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('base.css');
-@import url('components/navbar.css');
-@import url('components/movierow.css');
-@import url('components/movierowslider.css');
-@import url('components/movie.css');
-@import url('components/footer.css');
-@import url('components/banner.css');
-@import url('components/moviebar.css');
+@import url('components/public/navbar.css');
+@import url('components/public/movierow.css');
+@import url('components/public/movierowslider.css');
+@import url('components/public/movie.css');
+@import url('components/public/footer.css');
+@import url('components/public/banner.css');
+@import url('components/public/moviebar.css');
+@import url('components/public/playmovie.css');

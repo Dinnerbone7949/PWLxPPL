@@ -45,6 +45,10 @@ navbar {
     height: 30px;
 }
 
+.icon:hover {
+    cursor: pointer;
+}
+
 #user-option {
     display: flex;
     flex-direction: row;

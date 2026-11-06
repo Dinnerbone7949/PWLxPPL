@@ -3,7 +3,7 @@
         <div id="top-left">
             <div id="watchme-top-left">
                 <div id="watchme-footer-section">
-                    <img src="../images/logo/watchme.png" id="watchme-icon">
+                    <img src="../assets/images/logo/watchme.png" id="watchme-icon">
                     <b>WatchMe</b>
                 </div>
                 <p>Discover unforgettable stories, explore new worlds, and find movies that make every moment worth watching.</p>

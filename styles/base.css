@@ -6,6 +6,7 @@
 
 body {
     background-color: #101827;
+    overflow-x: hidden;
 }
 
 a {
@@ -18,4 +19,9 @@ main {
     flex-direction: column;
     gap: 20px;
     padding: 50px 50px;
+    min-height: 400px;
 }
+
+.pointer-button{
+    cursor: pointer;
+} 

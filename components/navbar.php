@@ -1,13 +1,13 @@
 <navbar>
     <div id="logo">
-        <a href="/"><img src="../images/logo/watchme.png" id="watchme"></a>
+        <a href="/"><img src="../assets/images/logo/watchme.png" id="watchme"></a>
         <a href="/"><p id="watchme-home">WatchMe</p></a>
     </div>
     <div id="left-navbar-option">
         <a href="/">Home</a>
         <a href="/pages/genres.php">Genres</a>
         <a href="/pages/categories.php">Categories</a>
-        <a href="">My List</a>
+        <a href="/pages/playlist.php">My List</a>
     </div>
     <div id="right-navbar-option">
         <div id="search">
