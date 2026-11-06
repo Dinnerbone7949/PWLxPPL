@@ -4,9 +4,9 @@
         <a href="/"><p id="watchme-home">WatchMe</p></a>
     </div>
     <div id="left-navbar-option">
-        <a href="">Home</a>
-        <a href="">Genres</a>
-        <a href="">Categories</a>
+        <a href="/">Home</a>
+        <a href="/pages/genres.php">Genres</a>
+        <a href="/pages/categories.php">Categories</a>
         <a href="">My List</a>
     </div>
     <div id="right-navbar-option">
