@@ -116,7 +116,7 @@
                     <input type="password" id="password" name="password" placeholder="Password">
                 </div>
                 <div id="login-bottom">
-                    <p style="text-align: center;">Don’t have any account? <a href="" style="color: #0329E1; text-decoration: none;">Sign up</a> here or continue with</p>
+                    <p style="text-align: center;">Don’t have any account? <a href="login-confirm.php" style="color: #0329E1; text-decoration: none;">Sign up</a> here or continue with</p>
                     <div id="platform-icon">
                         <img src="" alt="">
                         <img src="" alt="">
