@@ -9,9 +9,12 @@
     <?php include_once "components/navbar.php"; ?>
     <?php include_once "components/banner.php"?>
     <main>
-        <?php include_once "components/movierow.php"; ?>
+        <?php require __DIR__ . "/components/movierow.php"; ?>
+        <?php require __DIR__  . "/components/movierow.php"; ?>
+        <?php require __DIR__  . "/components/movierow.php"; ?>
     </main>
     <script src="javascripts/slideshow-btn.js"></script>
     <script src="index.js"></script>
+    <?php require_once __DIR__ . "/components/footer.php"?>
 </body>
 </html>
