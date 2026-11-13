@@ -16,10 +16,17 @@
             color: white;
         }
 
+        #main-about-us {
+            display: flex;
+            flex-direction: column;
+        }
+
         #mission {
             display: flex;
             flex-direction: row;
             justify-content: center;
+            margin: 10px 50px 50px 50px;
+            gap: 30px;
         }
 
         .mission-contain {
@@ -31,9 +38,6 @@
             width: 420px;
             height: 400px;
             padding: 50px 35px 10px 35px;
-            margin-left: 10px;
-            margin-right: 10px;
-            margin-top: 20px;
             border: 1px solid white;
             color: white;
             border-radius: 15px;
@@ -53,13 +57,14 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center
+            margin-left: 50px;
+            margin-right: 50px;
         }
 
         #developers {
             display: flex;
             flex-direction: row;
-            gap: 35px;
+            gap: 30px;
         }
 
         .develop-profile {
@@ -70,6 +75,7 @@
             padding: 20px;
             min-width: 400px;
             justify-content: end;
+            width: 492px;
         }
 
         .develop-name {
