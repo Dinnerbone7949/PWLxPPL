@@ -1,6 +1,6 @@
 <?php
 $host = "localhost";
-$dbname = "movies";
+$dbname = "watchme";
 $username = "root";
 $password = "";
 

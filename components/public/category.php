@@ -1,0 +1,4 @@
+<div class="column">
+    <h1 id="#movie_text">Kategori</h1>
+    <p id="movie_paragraph">blablablabbbbbbbbbbbbbbbbbbbbbbbbblablablabbbbbbbbbbbbbbbbbbbbbbbbblablablabbbbbbbbbbbbbbbbbbbbbbbbblablablabbbbbbbbbbbbbbbbbbbbbbbbblablablabbbbbbbbbbbbbbbbbbbbbbbbblablablabbbbbbbbbbbbbbbbbbbbbbbbblablablabbbbbbbbbbbbbbbbbbbbbbbbblablablabbbbbbbbbbbbbbbbbbbbbbbbblablablabbbbbbbbbbbbbbbbbbbbbbbbblablablabbbbbbbbbbbbbbbbbbbbbbbb</p>
+</div>

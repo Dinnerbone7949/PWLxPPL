@@ -1,11 +1,13 @@
 <?php 
-$rating = 4.9;
-$year = 2026;
-$mainCharacter = "Tom Holland";
-$categorizer = "Trending Now";
-$bannerMovieTitle = "Spiderman - Brand New Day";
-$bannerMovieDescription = "Peter Parker kembali menjalani hidup sebagai Spider-Man setelah berbagai perubahan besar dalam hidupnya. Kini, ia menghadapi ancaman baru yang memaksanya mempertaruhkan segalanya demi melindungi orang-orang di sekitarnya. Peter harus menemukan cara untuk menyeimbangkan kehidupan pribadinya dengan tanggung jawab sebagai pahlawan.";
-$bannerImagePath = "/assets/images/banner/banner.png";
+$movie_title = "";
+$year = 0;
+$category = "";
+$duration = "";
+$description = "";
+$synopsis = "";
+$movie_cover_path = "";
+$content = "content.php";
+$bannerimgpath = "../../../assets/images/banner/banner-temp.png";
 ?>
 <!DOCTYPE html>
 <html>
@@ -16,8 +18,13 @@ $bannerImagePath = "/assets/images/banner/banner.png";
 </head>
 <body>
     <?php include_once __DIR__ . "/../../../components/public/navbar.php"; ?>
+    <?php include_once __DIR__ . "/../../../components/public/movie_banner.php"; ?>
     <main>
-        <?php include_once __DIR__ . "/../../../components/public/playmovie.php"?>
+        <div id="main-panel">
+            <?php include_once __DIR__ . "/../../../components/public/description.php"?>
+            <?php include_once __DIR__ . "/../../../components/public/playmovie.php"?>
+            <?php include_once __DIR__ . "/../../../components/public/synopsis.php"?>
+        </div>
     </main>
     <?php include_once __DIR__ . "/../../../components/public/footer.php" ?>
 </body>
