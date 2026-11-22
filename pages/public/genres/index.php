@@ -9,7 +9,7 @@ $genres = getGenres();
 <!DOCTYPE html>
 <html>
 <head>
-    <title>genres</title>
+    <title><?= $_GET["genre"] ?? 'Genre' ?></title>
     <link rel="stylesheet" href="../../../styles/index.css">
     <link rel="icon" href="../../assets/images/logo/watchme.png" type="image/x-icon">
 </head>
