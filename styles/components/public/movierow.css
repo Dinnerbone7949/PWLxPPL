@@ -3,7 +3,7 @@
     flex-direction: row;
     align-items: center;
     gap: calc((100% - (6 * 215px)) / 5);
-    overflow-x: hidden;
+    overflow-x: scroll;
     width: 100%;
     height: fit-content;
 }

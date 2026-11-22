@@ -15,9 +15,12 @@ $Watchme = "assets/images/logo/watchme.png"
     <?php include_once __DIR__ . "/components/public/navbar.php"; ?>
     <?php include_once __DIR__ . "/components/public/movie_banner.php"; ?>
     <main>
-        <?php include __DIR__ . "/components/public/movie_rows.php"; ?>
-        <?php include __DIR__ . "/components/public/movie_rows.php"; ?>
-        <?php include __DIR__ . "/components/public/movie_rows.php"; ?>
+        <moviebar>
+        <h1>Popular Movies</h1>
+        <?php
+            include __DIR__ . "components/public/movies.php";
+        ?>
+        </moviebar>
     </main>
     <?php include_once __DIR__ . "/components/public/footer.php" ?>
 </body>
