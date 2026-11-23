@@ -1,18 +1,20 @@
-<?php 
-$movie_title = "";
-$year = 0;
-$category = "";
-$duration = "";
-$description = "";
-$synopsis = "";
-$movie_cover_path = "";
+<?php
+require_once __DIR__ . "/../../../repositories/movie-repositories.php";
+$movie = getMovie(htmlspecialchars($_GET['movie']));
+$movie_title = $movie['title'];
+$year = $movie['release_year'];
+$categories = $movie['categories'];
+$duration = floor($movie['duration'] / 60) . 'h ' . ($movie['duration'] % 60) . 'm';
+$description = $movie['description'];
+$synopsis = $movie['sinopsis'];
+$movie_cover_path = $movie['cover_path'];
 $content = "content.php";
 $bannerimgpath = "../../../assets/images/banner/banner-temp.png";
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>name</title>
+    <title><?= $movie_title?></title>
     <link rel="stylesheet" href="/styles/index.css">
     <link rel="icon" href="/assets/images/logo/watchme.png" type="image/x-icon">
 </head>

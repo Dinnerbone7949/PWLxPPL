@@ -5,11 +5,10 @@
     width: 215px;
     box-sizing: border-box;
     border-radius: 0 0 10px 10px;
-    border: 1px solid white;
+    border: 0.5px solid rgba(255, 255, 255, 0.267);
 }
 
 .cover {
-    background-color: red;
     height: 255px;
     width: 100%;
 }
@@ -36,17 +35,8 @@
 .movie-card-title span{
     font-size: 16px;
     font-weight: 600;
-}
-
-.movie-card-rating{
-    display: flex;
-    flex-direction: row;
-    padding-right: 10px;
-    gap: 10px;
-}
-
-.movie-card-star-rating{
-    width: 20px;
-    height: 20px;
-    color: white;
+    overflow-x: hidden;
+    text-overflow:ellipsis;
+    text-wrap: nowrap;
+    width: 200px;
 }
