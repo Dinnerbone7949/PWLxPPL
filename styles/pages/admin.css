@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+        body {
+            margin: 60px;
+            font-family: 'Poppins';
+            color: white;
+            background: #101827;
+        }
+
+        #admin-title {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #admin-title h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
+        #admin-title span {
+            font-size: 20px;
+        }
+
+        #admin-add-title {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #add-button {
+            padding: 20px 40px 20px 40px;
+            border: none;
+            border-radius: 15px;
+            background: linear-gradient(90deg, #02177B, #0329E1);
+            color: white;
+        }
+
+        #add-button:hover {
+            padding: 20px 40px 20px 40px;
+            border: none;
+            border-radius: 15px;
+            background: white;
+            color: #0329E1;
+        }
+
+        #add-button span {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #filter {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 30px;
+            align-items: center;
+        }
+
+        #search-bar-admin {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 800px;
+        }
+
+        #search-bar-admin input {
+            width: 100%;
+            padding: 12px 45px 12px 20px;
+            background-color: transparent;
+            border: 2px solid white;
+            border-radius: 12px;
+            color: white;
+            outline: none;
+            box-sizing: border-box;
+        }
+
+        #search-bar-admin input::placeholder {
+            color: #888;
+        }
+
+        .option-filter {
+            height: 41px;
+            width: 200px;
+            border-radius: 15px;
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        #filter-option {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+        }
+
+        #movie-list-admin {
+            margin-top: 50px;
+        }
+
+        #admin-navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background: #02177B;
+            padding: 20px 45px 20px 45px;
+            border-radius: 15px 15px 0px 0px;
+        }
+
+        #admin-navbar section {
+            display: flex;
+            flex-direction: row;
+            width: 560px;
+            justify-content: space-between;
+            padding: 0px 35px 0px 35px;
+        }
+
+        .movie-title-ctg h1 {
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
+        .movie-card-admin {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background: transparent;
+            align-items: center;
+            padding: 20px 45px 20px 45px;
+            border: 2px solid white;
+            border-radius: 15px;
+            margin-top: 30px;
+        }
+
+        #movie-list {
+            margin: 0;
+        }
+
+        .movie-card-admin section {
+            display: flex;
+            flex-direction: row;
+            width: 560px;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 35px 0px 35px;
+        }
+
+        .movie-card-admin img {
+            height: 230px;
+        }
+
+        #admin-desc {
+            padding: 50px 80px 10px 80px;
+        }

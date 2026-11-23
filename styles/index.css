@@ -5,3 +5,5 @@
 @import url('components/public/footer.css');
 @import url('components/public/banner.css');
 @import url('components/public/control.css');
+@import url('components/public/admin_content.css');
+@import url('pages/admin.css');
