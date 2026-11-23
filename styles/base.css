@@ -31,3 +31,12 @@ main {
     flex-direction: column;
     justify-content: flex-start;
 }
+
+section.movies_group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 29px;
+    row-gap: 30px;
+}

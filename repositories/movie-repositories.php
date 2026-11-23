@@ -4,7 +4,27 @@ require_once __DIR__ . "/../config/database.php";
 function getMovies($search, $limit, $category, $genre, $year)
 {
     global $pdo;
+    if($category == 'R' || $category=="PG" || $category=="Fiction"){
+       $query = "select distinct mh.movie_id, mh.release_year, mh.duration, mh.cover_path, md.title, md.description, md.sinopsis 
+              from movies_head mh join movie_details md on mh.movie_id = md.head_id left join movie_categories mc on mh.movie_id = mc.movie_id
+              left join categories c on mc.category_id = c.id left join movie_genres mg on mh.movie_id = mg.movie_id
+              left join genres g on mg.genre_id = g.id WHERE md.title like :search and c.name = :category and g.name like :genre
+              and mh.release_year like :year limit :limit";
+              
+    $stmt = $pdo->prepare($query);
     
+    $stmt->execute([
+        'search'    => "%$search%",
+        'category'  => "$category",
+        'genre'     => "%$genre%",
+        'year'      => "%$year%",
+        'limit'     => $limit,
+    ]);
+
+    $movies = $stmt->fetchAll();
+
+    return $movies;
+    }
     $query = "select distinct mh.movie_id, mh.release_year, mh.duration, mh.cover_path, md.title, md.description, md.sinopsis 
               from movies_head mh join movie_details md on mh.movie_id = md.head_id left join movie_categories mc on mh.movie_id = mc.movie_id
               left join categories c on mc.category_id = c.id left join movie_genres mg on mh.movie_id = mg.movie_id

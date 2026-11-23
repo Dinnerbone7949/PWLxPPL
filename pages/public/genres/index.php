@@ -64,9 +64,69 @@ $genres = getGenres();
                 </section>
             </moviebar>
         <?php else: 
-            $limit = 100;?>
+            $limit = 200;?>
             <?php if((strtolower($_GET["genre"]) ?? '') == "action"): ?>
-                <section id="movierow">
+                <section class="movies_group">
+                    <?php
+                        $genre = "Action";
+                        $movies = getMovies($search, $limit, $category, $genre, $year);
+                        foreach ($movies as $movie) { 
+                            include __DIR__ . "/../../../components/public/movie_cover.php";
+                        }
+                    ?>
+                </section>
+            <?php elseif((strtolower($_GET["genre"]) ?? '') == "animation"): ?>
+                <section class="movies_group">
+                    <?php
+                        $genre = "Animation";
+                        $movies = getMovies($search, $limit, $category, $genre, $year);
+                        foreach ($movies as $movie) { 
+                            include __DIR__ . "/../../../components/public/movie_cover.php";
+                        }
+                    ?>
+                </section>
+            <?php elseif((strtolower($_GET["genre"]) ?? '') == "comedy"): ?>
+                <section class="movies_group">
+                    <?php
+                        $genre = "Comedy";
+                        $movies = getMovies($search, $limit, $category, $genre, $year);
+                        foreach ($movies as $movie) { 
+                            include __DIR__ . "/../../../components/public/movie_cover.php";
+                        }
+                    ?>
+                </section>
+            <?php elseif((strtolower($_GET["genre"]) ?? '') == "drama"): ?>
+                <section class="movies_group">
+                    <?php
+                        $genre = "Drama";
+                        $movies = getMovies($search, $limit, $category, $genre, $year);
+                        foreach ($movies as $movie) { 
+                            include __DIR__ . "/../../../components/public/movie_cover.php";
+                        }
+                    ?>
+                </section>
+            <?php elseif((strtolower($_GET["genre"]) ?? '') == "romance"): ?>
+                <section class="movies_group">
+                    <?php
+                        $genre = "Romance";
+                        $movies = getMovies($search, $limit, $category, $genre, $year);
+                        foreach ($movies as $movie) { 
+                            include __DIR__ . "/../../../components/public/movie_cover.php";
+                        }
+                    ?>
+                </section>
+            <?php elseif((strtolower($_GET["genre"]) ?? '') == "horror"): ?>
+                <section class="movies_group">
+                    <?php
+                        $genre = "Horror";
+                        $movies = getMovies($search, $limit, $category, $genre, $year);
+                        foreach ($movies as $movie) { 
+                            include __DIR__ . "/../../../components/public/movie_cover.php";
+                        }
+                    ?>
+                </section>
+            <?php elseif((strtolower($_GET["genre"]) ?? '') == "family"): ?>
+                <section class="movies_group">
                     <?php
                         $genre = "Family";
                         $movies = getMovies($search, $limit, $category, $genre, $year);
@@ -75,12 +135,16 @@ $genres = getGenres();
                         }
                     ?>
                 </section>
-            <?php elseif((strtolower($_GET["genre"]) ?? '') == "animation"): ?>
-            <?php elseif((strtolower($_GET["genre"]) ?? '') == "drama"): ?>
-            <?php elseif((strtolower($_GET["genre"]) ?? '') == "romance"): ?>
-            <?php elseif((strtolower($_GET["genre"]) ?? '') == "horror"): ?>
-            <?php elseif((strtolower($_GET["genre"]) ?? '') == "family"): ?>
             <?php elseif((strtolower($_GET["genre"]) ?? '') == "fantasy"): ?>
+                <section class="movies_group">
+                    <?php
+                        $genre = "Fantasy";
+                        $movies = getMovies($search, $limit, $category, $genre, $year);
+                        foreach ($movies as $movie) { 
+                            include __DIR__ . "/../../../components/public/movie_cover.php";
+                        }
+                    ?>
+                </section>
             <?php else: ?>
                 <h1 style="color:white">Not Found</h1>
             <?php endif ?> 

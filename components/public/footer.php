@@ -50,16 +50,16 @@
                 <b>Genres</b>
                 <div id="footer-genres">
                     <ul class="footer-link-list">
-                        <li><a href="">Action</a></li>
-                        <li><a href="">Animation</a></li>
-                        <li><a href="">Comedy</a></li>
-                        <li><a href="">Drama</a></li>
+                        <li><a href="/pages/public/genres/?genre=Action">Action</a></li>
+                        <li><a href="/pages/public/genres/?genre=Animation">Animation</a></li>
+                        <li><a href="/pages/public/genres/?genre=Comedy">Comedy</a></li>
+                        <li><a href="/pages/public/genres/?genre=Drama">Drama</a></li>
                     </ul>
                     <ul class="footer-link-list">
-                        <li><a href="">Romance</a></li>
-                        <li><a href="">Fantasy</a></li>
-                        <li><a href="">Horror</a></li>
-                        <li><a href="">Family</a></li>
+                        <li><a href="/pages/public/genres/?genre=Romance">Romance</a></li>
+                        <li><a href="/pages/public/genres/?genre=Fantasy">Fantasy</a></li>
+                        <li><a href="/pages/public/genres/?genre=Horror">Horror</a></li>
+                        <li><a href="/pages/public/genres/?genre=Family">Family</a></li>
                     </ul> 
                 </div>
             </div>

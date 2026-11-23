@@ -44,6 +44,11 @@ function categoryCheck()
         $banner_paragraph = "Fact-based storytelling grounded in real events, real people, and accurate information, typically presented through documentaries, biographies, or historical accounts.";
         $bannerimgpath = "/assets/images/banner/categories/non_fiction.png";
     }
+    elseif((strtolower($_GET["category"]) ?? '') == "r"){
+        $banner_title = "R";
+        $banner_paragraph = "Content intended for mature audiences aged 17 and older. May contain strong language, intense violence, sexual content, nudity, drug use, or other mature themes that may be inappropriate for younger viewers. Viewers under 17 generally require an accompanying parent or adult guardian.";
+        $bannerimgpath = "/assets/images/banner/categories/r.png";
+    }
     else{
         $banner_title = "Not FOUND";
         $banner_paragraph = "Category Not Found, pick something else :(";
