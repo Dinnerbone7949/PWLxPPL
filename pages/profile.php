@@ -23,7 +23,7 @@
         #main-profile-edit {
             display: flex;
             flex-direction: row;
-            min-height: 880px;
+            min-height: 500px;
             gap: 50px;
             justify-content: center;
         }
