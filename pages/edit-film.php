@@ -101,6 +101,7 @@
         width: 1297px;
         padding: 0px 300px 0px 300px;
         margin-top: 100px;
+        margin-bottom: 100px;
     }
 
     #simpan-btn {
@@ -187,8 +188,8 @@
                     <input type="text" placeholder="Tahun Rilis" class="input-add">
                 </div>
                 <div class="input-form-add">
-                    <label>Tahun Rilis</label>
-                    <textarea type="text" placeholder="Tahun Rilis" id="desc-add"></textarea>
+                    <label>Deskripsi Film</label>
+                    <textarea type="text" placeholder="Deskripsi Film" id="desc-add"></textarea>
                 </div>
                 <div class="input-form-add">
                     <select name="" id="select-ctg">
