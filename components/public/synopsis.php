@@ -1,0 +1,1 @@
+<p id="movie-synopsis"><?= $synopsis ?></p>

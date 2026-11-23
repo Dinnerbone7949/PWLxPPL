@@ -6,13 +6,37 @@
 
 body {
     background-color: #101827;
+    overflow-x: hidden;
 }
 
 a {
     text-decoration: none;
-    color:black;
+    color:white;
 }
 
 main {
-    padding: 0px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 50px;
+    min-height: 400px;
+}
+
+.pointer-button{
+    cursor: pointer;
+} 
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+section.movies_group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 29px;
+    row-gap: 30px;
 }

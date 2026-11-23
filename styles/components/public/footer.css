@@ -1,0 +1,118 @@
+footer{
+    padding: 10px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    color: white;
+}
+
+#top-section{
+    height: 170px;
+    width: 100%;
+    border-top: 1px solid white;
+    padding: 18px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bottom-section{
+    height: 22px;
+    width: 100%;
+    border-top: 1px solid white;
+    padding: 18px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#watchme-icon {
+    width: 45px;
+    height: 45px;
+}
+
+#watchme-footer-section {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#watchme-top-left{
+    width: 350px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.footer-icons{
+    height: 37px;
+    width: 37px;
+}
+
+#top-left{
+    width:350px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#footer-icons-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+}
+
+#top-right{
+    width: 440px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#mini-right-side{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding-right: 20px;
+}
+
+#footer-genres{
+    display: flex;
+    flex-direction: row;
+    width: 220px;
+    height: fit-content;
+    justify-content: space-between;
+}
+
+#mini-left-side{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 145px;
+    border-right: 1px solid white;
+}
+
+#footer-bottom-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#footer-bottom-text :nth-child(even){
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding: 0 10px;
+}
+
+.footer-link-list{
+    list-style-type: none;
+    font-weight: 300;
+}
